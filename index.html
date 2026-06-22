@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FedVision — Privacy-Preserving Federated AI Surveillance Platform</title>
+    <meta name="description" content="FedVision upgrades legacy CCTV networks to self-learning intelligent systems. 100% DPDP Act 2023 compliant, 90% cheaper, powered by 5G Federated Learning.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"></span>
+                Fed<span>Vision</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#features">Features</a>
+                <a href="#architecture">Architecture</a>
+                <a href="#calculator">Economics</a>
+                <a href="#metrics">Validation</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-sm btn-outline">Request Pilot</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-container">
+                    <span class="hero-badge">TRL 4-5 Lab Validated</span>
+                    <span class="hero-badge badge-green">DPDP Act 2023 Compliant</span>
+                </div>
+                <h1 class="hero-title">Privacy-First AI Surveillance for <span>5G Smart Camera</span> Networks</h1>
+                <p class="hero-desc">
+                    Upgrade legacy CCTV setups into self-learning intelligent networks. FedVision runs computer vision locally at the edge, sharing only mathematical weight updates over 5G to centralize intelligence—never raw video.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#calculator" class="btn btn-primary">Calculate Savings</a>
+                    <a href="#architecture" class="btn btn-secondary">How It Works</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-dots"><span></span><span></span><span></span></div>
+                        <div class="mockup-title">FedVision Global Orchestrator</div>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="mockup-grid">
+                            <div class="mockup-card highlighted">
+                                <div class="m-lbl">Active Edge Nodes</div>
+                                <div class="m-val">32</div>
+                            </div>
+                            <div class="m-card">
+                                <div class="m-lbl">Bandwidth Saved</div>
+                                <div class="m-val" style="color: #10b981;">99.96%</div>
+                            </div>
+                            <div class="m-card">
+                                <div class="m-lbl">Global mAP</div>
+                                <div class="m-val">94.75%</div>
+                            </div>
+                        </div>
+                        <div class="mockup-chart-container">
+                            <div class="chart-header">
+                                <span>Federated Convergence (mAP)</span>
+                                <span>3 Rounds</span>
+                            </div>
+                            <div class="chart-bars">
+                                <div class="chart-bar-col"><div class="chart-bar" style="height: 75%;"><span>94.8%</span></div><div class="bar-lbl">R0</div></div>
+                                <div class="chart-bar-col"><div class="chart-bar" style="height: 85%;"><span>95.7%</span></div><div class="bar-lbl">R1</div></div>
+                                <div class="chart-bar-col"><div class="chart-bar" style="height: 92%;"><span>95.0%</span></div><div class="bar-lbl">R2</div></div>
+                                <div class="chart-bar-col"><div class="chart-bar active" style="height: 95%;"><span>94.75%</span></div><div class="bar-lbl" style="color: #2563eb; font-weight: 700;">R3</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUE PROPOSITIONS -->
+    <section id="features" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Key Features</span>
+                <h2 class="section-title">Why Enterprise Surveillance Needs FedVision</h2>
+            </div>
+            <div class="grid-3 card-grid">
+                <div class="v-card fade-in">
+                    <div class="v-icon icon-privacy"></div>
+                    <h3 class="v-title">100% Privacy by Design</h3>
+                    <p class="v-desc">Raw video never leaves your facility. Video frames are processed in-memory at the edge and permanently deleted. Fully compliant with India's DPDP Act 2023.</p>
+                </div>
+                <div class="v-card fade-in">
+                    <div class="v-icon icon-saving"></div>
+                    <h3 class="v-title">90% Cost Reduction</h3>
+                    <p class="v-desc">By eliminating massive cloud uploads, continuous video storage, and cloud GPU processing, FedVision cuts 5-year Total Cost of Ownership by 90%.</p>
+                </div>
+                <div class="v-card fade-in">
+                    <div class="v-icon icon-networks"></div>
+                    <h3 class="v-title">5G Edge Optimization</h3>
+                    <p class="v-desc">Designed to exploit high-speed, private 5G network slices. Exchanging lightweight weights (~10MB) preserves precious network bandwidth.</p>
+                </div>
+                <div class="v-card fade-in">
+                    <div class="v-icon icon-offline"></div>
+                    <h3 class="v-title">Offline Autonomy</h3>
+                    <p class="v-desc">If the network drops, cameras continue object detection locally at the edge. No single point of failure ensures high operational resilience.</p>
+                </div>
+                <div class="v-card fade-in">
+                    <div class="v-icon icon-learning"></div>
+                    <h3 class="v-title">Continual Lifelong Learning</h3>
+                    <p class="v-desc">Our custom strategy ensures model updates are saved persistently. The system gets smarter daily without requiring manual dataset annotations.</p>
+                </div>
+                <div class="v-card fade-in">
+                    <div class="v-icon icon-retrofit"></div>
+                    <h3 class="v-title">Legacy Retrofitting</h3>
+                    <p class="v-desc">No need to replace expensive analog or standard IP cameras. Our Edge Gateway box plugs directly into your existing NVR switches to upgrade them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARCHITECTURE FLOW -->
+    <section id="architecture" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">System Architecture</span>
+                <h2 class="section-title">The Three-Tier Operational Flow</h2>
+            </div>
+            <div class="arch-tabs">
+                <button class="tab-btn active" data-tab="input">1. Ingestion Layer</button>
+                <button class="tab-btn" data-tab="edge">2. Local Edge Compute</button>
+                <button class="tab-btn" data-tab="cloud">3. Global Orchestrator</button>
+            </div>
+            <div class="arch-content-container">
+                <div class="arch-content active" id="tab-input">
+                    <div class="grid-2">
+                        <div class="arch-text-col">
+                            <h3>Tier 1: Video Ingestion (Legacy Setup)</h3>
+                            <p>FedVision interfaces seamlessly with your existing, standard CCTV setup. Standard IP security cameras transmit raw feeds locally over LAN/Ethernet switches.</p>
+                            <ul>
+                                <li>Compatible with any standard RTSP IP camera.</li>
+                                <li>Zero internet connectivity required at the camera level.</li>
+                                <li>Captures raw 1080p frames at 30 FPS.</li>
+                            </ul>
+                        </div>
+                        <div class="arch-visual-col">
+                            <div class="network-diagram ingestion-diagram">
+                                <div class="devices-row">
+                                    <div class="diag-node camera-node">
+                                        <span class="live-dot"></span>
+                                        <span class="node-icon">📷</span>
+                                        <span class="node-name">Camera 01</span>
+                                    </div>
+                                    <div class="diag-node camera-node">
+                                        <span class="live-dot"></span>
+                                        <span class="node-icon">📷</span>
+                                        <span class="node-name">Camera 02</span>
+                                    </div>
+                                    <div class="diag-node camera-node">
+                                        <span class="live-dot"></span>
+                                        <span class="node-icon">📷</span>
+                                        <span class="node-name">Camera N</span>
+                                    </div>
+                                </div>
+                                
+                                <svg class="conn-svg" viewBox="0 0 300 80" preserveAspectRatio="none">
+                                    <path d="M 50,10 L 150,70" fill="none" stroke="#1e293b" stroke-width="2" />
+                                    <path d="M 150,10 L 150,70" fill="none" stroke="#1e293b" stroke-width="2" />
+                                    <path d="M 250,10 L 150,70" fill="none" stroke="#1e293b" stroke-width="2" />
+                                    
+                                    <!-- Flowing data packets -->
+                                    <circle r="3.5" fill="#06b6d4" filter="drop-shadow(0 0 3px #06b6d4)">
+                                        <animateMotion dur="2.2s" repeatCount="indefinite" path="M 50,10 L 150,70" />
+                                    </circle>
+                                    <circle r="3.5" fill="#06b6d4" filter="drop-shadow(0 0 3px #06b6d4)">
+                                        <animateMotion dur="2.2s" begin="0.7s" repeatCount="indefinite" path="M 150,10 L 150,70" />
+                                    </circle>
+                                    <circle r="3.5" fill="#06b6d4" filter="drop-shadow(0 0 3px #06b6d4)">
+                                        <animateMotion dur="2.2s" begin="1.4s" repeatCount="indefinite" path="M 250,10 L 150,70" />
+                                    </circle>
+                                </svg>
+                                
+                                <div class="diag-node switch-node">
+                                    <span class="node-icon">🔌</span>
+                                    <span class="node-name">LAN Network Switch</span>
+                                    <div class="switch-leds">
+                                        <span class="led"></span>
+                                        <span class="led"></span>
+                                        <span class="led"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="arch-content" id="tab-edge">
+                    <div class="grid-2">
+                        <div class="arch-text-col">
+                            <h3>Tier 2: Edge AI Processing (NVIDIA Jetson / Gateway)</h3>
+                            <p>A ruggedized local mini-server or edge node (e.g., NVIDIA Jetson Orin) acts as the brain. It performs local frame capture, inference, and model fine-tuning.</p>
+                            <ul>
+                                <li><b>Faster R-CNN Model:</b> Runs local object detection (41M parameter model).</li>
+                                <li><b>Active Learning:</b> Saves frames falling inside the "Confusion Zone" (50-75% confidence) to optimize local storage.</li>
+                                <li><b>Data Annihilation:</b> Automatically permanently deletes processed frames. No video is ever stored.</li>
+                                <li><b>Local Training:</b> Fine-tunes local parameters using local weights.</li>
+                            </ul>
+                        </div>
+                        <div class="arch-visual-col">
+                            <div class="network-diagram edge-diagram">
+                                <div class="diag-node switch-node-small">
+                                    <span class="node-icon">🔌</span> LAN Switch Feed
+                                </div>
+                                
+                                <svg class="conn-svg-vertical" viewBox="0 0 100 50" preserveAspectRatio="none">
+                                    <path d="M 50,0 L 50,50" fill="none" stroke="#1e293b" stroke-width="2" />
+                                    <circle r="4" fill="#06b6d4" filter="drop-shadow(0 0 3px #06b6d4)">
+                                        <animateMotion dur="1.5s" repeatCount="indefinite" path="M 50,0 L 50,50" />
+                                    </circle>
+                                </svg>
+                                
+                                <div class="diag-node edge-box-rich">
+                                    <div class="edge-box-header">
+                                        <span class="brain-icon">🧠</span>
+                                        <h4>FedVision Edge Node</h4>
+                                    </div>
+                                    
+                                    <div class="edge-box-body">
+                                        <div class="sim-feed">
+                                            <div class="feed-box">
+                                                <div class="bounding-box person-box" id="sim-box-1">Person: 94%</div>
+                                                <div class="bounding-box car-box" id="sim-box-2">Car: 88%</div>
+                                                <div class="scan-line"></div>
+                                            </div>
+                                            <span class="feed-label">Live Inference Stream</span>
+                                        </div>
+                                        
+                                        <div class="sim-telemetry">
+                                            <div class="telemetry-log" id="telemetry-log">
+                                                <div class="log-line">[Inference] Person (94.2%)</div>
+                                                <div class="log-line log-success">[Action] Video Annihilated</div>
+                                            </div>
+                                            
+                                            <div class="training-status">
+                                                <div class="status-row">
+                                                    <span>Local Training:</span>
+                                                    <span id="epoch-counter">Epoch 1/3</span>
+                                                </div>
+                                                <div class="progress-track">
+                                                    <div class="progress-fill" id="training-progress-fill"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="arch-content" id="tab-cloud">
+                    <div class="grid-2">
+                        <div class="arch-text-col">
+                            <h3>Tier 3: Global Federated Orchestration (Cloud Aggregator)</h3>
+                            <p>A secure central server runs the Flower Federated Learning framework to compile weights from distributed edge boxes without seeing local feeds.</p>
+                            <ul>
+                                <li><b>gRPC Communication:</b> Transmits compressed weight updates (~10MB) via secure channels.</li>
+                                <li><b>Federated Averaging (FedAvg):</b> Mathematically averages weights from active edge devices.</li>
+                                <li><b>Hot Swapping:</b> Pushes updated super-model back to gateways, updating the detection model in &lt;50ms with zero downtime.</li>
+                            </ul>
+                        </div>
+                        <div class="arch-visual-col">
+                            <div class="network-diagram global-diagram">
+                                <div class="diag-node server-node" id="global-server-node">
+                                    <span class="node-icon">👑</span>
+                                    <span class="node-name">Flower FL Coordinator</span>
+                                    <div class="server-status-pill" id="global-server-status">Initializing...</div>
+                                </div>
+                                
+                                <svg class="conn-svg-global" viewBox="0 0 300 70" preserveAspectRatio="none">
+                                    <!-- Left Connection -->
+                                    <path d="M 50,60 L 150,10" fill="none" stroke="#1e293b" stroke-width="2" />
+                                    <!-- Right Connection -->
+                                    <path d="M 250,60 L 150,10" fill="none" stroke="#1e293b" stroke-width="2" />
+                                    
+                                    <!-- Upward pulses (Blue) -->
+                                    <circle id="pulse-up-l" r="4.5" fill="#3b82f6" opacity="0">
+                                        <animateMotion id="anim-up-l" dur="1.2s" fill="freeze" path="M 50,60 L 150,10" begin="indefinite" />
+                                    </circle>
+                                    <circle id="pulse-up-r" r="4.5" fill="#3b82f6" opacity="0">
+                                        <animateMotion id="anim-up-r" dur="1.2s" fill="freeze" path="M 250,60 L 150,10" begin="indefinite" />
+                                    </circle>
+                                    
+                                    <!-- Downward pulses (Green) -->
+                                    <circle id="pulse-down-l" r="4.5" fill="#10b981" opacity="0">
+                                        <animateMotion id="anim-down-l" dur="1.2s" fill="freeze" path="M 150,10 L 50,60" begin="indefinite" />
+                                    </circle>
+                                    <circle id="pulse-down-r" r="4.5" fill="#10b981" opacity="0">
+                                        <animateMotion id="anim-down-r" dur="1.2s" fill="freeze" path="M 150,10 L 250,60" begin="indefinite" />
+                                    </circle>
+                                </svg>
+                                
+                                <div class="edge-nodes-row">
+                                    <div class="diag-node edge-node-small" id="global-edge-1">
+                                        <span class="node-icon">🧠</span>
+                                        <span class="node-name">Edge Box 01</span>
+                                    </div>
+                                    <div class="diag-node edge-node-small" id="global-edge-2">
+                                        <span class="node-icon">🧠</span>
+                                        <span class="node-name">Edge Box N</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COST CALCULATOR -->
+    <section id="calculator" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">ROI Calculator</span>
+                <h2 class="section-title">Compare 5-Year Costs (TCO)</h2>
+            </div>
+            <div class="grid-2 calculator-layout">
+                <div class="calc-inputs card">
+                    <div class="ctitle">🔧 Deployment Scale</div>
+                    <p style="margin-bottom: 20px;">Select the number of security cameras to calculate five-year cost comparisons.</p>
+                    
+                    <div class="range-container">
+                        <label for="camera-slider">Number of Cameras: <span id="camera-count">50</span></label>
+                        <input type="range" id="camera-slider" min="10" max="500" value="50" step="10">
+                        <div class="range-markers">
+                            <span>10</span>
+                            <span>100</span>
+                            <span>200</span>
+                            <span>350</span>
+                            <span>500</span>
+                        </div>
+                    </div>
+                    
+                    <div class="savings-highlight">
+                        <div class="sh-lbl">Five-Year Savings</div>
+                        <div class="sh-val">₹<span id="savings-val">76.5</span> Lakh</div>
+                        <p>Compared to traditional centralized cloud AI architectures.</p>
+                    </div>
+                </div>
+                
+                <div class="calc-results">
+                    <div class="card card-dark">
+                        <div class="ctitle">💰 5-Year Cost Matrix Comparison</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Cost Component</th>
+                                    <th>Cloud AI</th>
+                                    <th>FedVision</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cloud GPU Compute</td>
+                                    <td class="bad-text">₹<span id="cloud-gpu-cost">45.0</span>L</td>
+                                    <td class="good-text">₹0</td>
+                                </tr>
+                                <tr>
+                                    <td>Cloud Storage (Video)</td>
+                                    <td class="bad-text">₹<span id="cloud-storage-cost">18.0</span>L</td>
+                                    <td class="good-text">₹0</td>
+                                </tr>
+                                <tr>
+                                    <td>Sustained Bandwidth</td>
+                                    <td class="bad-text">₹<span id="cloud-bandwidth-cost">22.5</span>L</td>
+                                    <td>₹<span id="edge-bandwidth-cost">1.8</span>L <span style="font-size: 9px; opacity: 0.7;">(5G)</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Edge Hardware Kit</td>
+                                    <td class="good-text">₹0</td>
+                                    <td>₹<span id="edge-hardware-cost">5.0</span>L <span style="font-size: 9px; opacity: 0.7;">(One-time)</span></td>
+                                </tr>
+                                <tr style="border-top: 1.5px solid #2563eb; background: rgba(37, 99, 235, 0.1); font-weight: 700;">
+                                    <td>Total 5-Year TCO</td>
+                                    <td class="bad-text" style="font-size: 14px;">₹<span id="cloud-total">85.5</span>L</td>
+                                    <td class="good-text" style="font-size: 14px;">₹<span id="edge-total">9.0</span>L</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="alert-callout alert-green" style="margin-top: 12px; font-size: 11px;">
+                            <b>Why so cheap?</b> Traditional systems stream raw video continuously. FedVision processes locally on local edge hardware, requiring only periodic SIM data plans for weight exchange.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMPIRICAL METRICS -->
+    <section id="metrics" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Validation</span>
+                <h2 class="section-title">Empirical Performance Validation</h2>
+            </div>
+            <div class="grid-2">
+                <div class="card">
+                    <div class="ctitle">📈 Core Evaluation Results (mAP @ 0.50)</div>
+                    <p style="margin-bottom: 12px;">Validation metrics measured over 3 rounds on a distributed multi-client edge setup:</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>FL Round</th>
+                                <th>mAP @ 50 IoU</th>
+                                <th>Precision</th>
+                                <th>Recall</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Round 0 (Initial)</td>
+                                <td>94.88%</td>
+                                <td>85.49%</td>
+                                <td>94.37%</td>
+                            </tr>
+                            <tr>
+                                <td>Round 1</td>
+                                <td>95.76%</td>
+                                <td>84.94%</td>
+                                <td>93.07%</td>
+                            </tr>
+                            <tr>
+                                <td>Round 2</td>
+                                <td>95.00%</td>
+                                <td>93.45%</td>
+                                <td>92.64%</td>
+                            </tr>
+                            <tr style="background: rgba(16, 185, 129, 0.05); font-weight: 700;">
+                                <td>Round 3 (Final)</td>
+                                <td class="good-text">94.75%</td>
+                                <td class="good-text">92.67%</td>
+                                <td class="good-text">93.07%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card card-blue" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="ctitle">⚡ Edge Optimization Statistics</div>
+                    <ul style="font-size: 12.5px; line-height: 1.6; margin-bottom: 8px;">
+                        <li><b>48% Speed Improvement:</b> Local fine-tuning compilation speed improved from 790s to 410s per epoch due to CUDA graph caching and VRAM memory pooling.</li>
+                        <li><b>99.96% Bandwidth Reduction:</b> Exchanging lightweight model updates (~10MB/client) instead of streaming continuous HD video streams eliminates network congestion.</li>
+                        <li><b>&lt;50ms Hot Swapping:</b> Multi-threaded edge runtime allows continuous inference, instantly loading updated server models with zero downtime.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="section section-dark">
+        <div class="container" style="max-width: 700px;">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Schedule a Private Pilot</h2>
+                <p>Deploy a private, 5G-enabled, DPDP-compliant surveillance pilot at your campus, warehouse, or facility.</p>
+            </div>
+            
+            <div class="card contact-card">
+                <form id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required placeholder="Bhoopendra Singh">
+                        </div>
+                        <div class="form-group">
+                            <label for="org">Organization</label>
+                            <input type="text" id="org" required placeholder="University / Company">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Work Email</label>
+                            <input type="email" id="email" required placeholder="name@organization.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required placeholder="+91 98765 43210">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required placeholder="Tell us about your CCTV setup and requirement..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+                <div id="form-success" class="form-success-msg hidden">
+                    <div class="success-icon">✓</div>
+                    <h3>Message Sent Successfully!</h3>
+                    <p>Thank you for reaching out. We will get in touch with you shortly to schedule a pilot demonstration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="logo" style="margin-bottom: 8px;">
+                    <span class="logo-icon"></span>
+                    Fed<span>Vision</span>
+                </div>
+                <p>Privacy-Preserving AI Surveillance Platform for 5G Networks</p>
+            </div>
+            <div class="footer-right">
+                <p><b>Contact:</b> bhoopendrasinghbhadauria5@gmail.com | +91 9294824187</p>
+                <p style="font-size: 10px; margin-top: 8px; opacity: 0.6;">© 2026 FedVision. Developed by Bhoopendra Singh Bhadauria under academic guidance of Dr. Sushil Kumar, Central University of Haryana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
