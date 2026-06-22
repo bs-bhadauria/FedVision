@@ -15,7 +15,7 @@ The core intellectual property—including the proprietary Federated Learning or
 ## 🌐 Live Website
 
 You can view the live landing page here:
-**[Insert your GitHub Pages Link Here]** *(e.g., https://yourusername.github.io/fedvision)*
+**[https://bs-bhadauria.github.io/FedVision/]**
 
 ## Tech Stack
 
